@@ -1,8 +1,5 @@
 import streamlit as st
-
-pip install transformers
-from transformers import pipeline
-
+import transformers 
 
 from transformers import pipeline
 classifier = pipeline(model="matmei/complainerType")
